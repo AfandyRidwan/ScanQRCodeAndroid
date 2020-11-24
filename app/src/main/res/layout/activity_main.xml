@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scan QRCode App"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_marginBottom="150dp"/>
+
+    <Button
+        android:id="@+id/button_generate"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"
+        android:text="Genrate"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:onClick="btngenerate"
+        android:layout_marginBottom="16dp"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/button_scan"
+        android:layout_width="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"
+        android:layout_height="50dp"
+        android:onClick="btnscan"
+        android:text="Scan"
+        android:textStyle="bold"
+        android:textColor="#fff"/>
+
+</LinearLayout>
